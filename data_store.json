@@ -1,0 +1,48 @@
+{
+  "transactions": [],
+  "categories": [
+    { "id": "cat_inc_1", "name": "Sales", "type": "income", "iconName": "TrendingUp", "color": "#10B981" },
+    { "id": "cat_inc_2", "name": "Services", "type": "income", "iconName": "Briefcase", "color": "#3B82F6" },
+    { "id": "cat_inc_3", "name": "Commission", "type": "income", "iconName": "Percent", "color": "#8B5CF6" },
+    { "id": "cat_inc_4", "name": "Investments", "type": "income", "iconName": "LineChart", "color": "#F59E0B" },
+    { "id": "cat_inc_5", "name": "Consulting", "type": "income", "iconName": "Users", "color": "#06B6D4" },
+    { "id": "cat_inc_6", "name": "Miscellaneous", "type": "income", "iconName": "MoreHorizontal", "color": "#6B7280" },
+    { "id": "cat_exp_1", "name": "Office Expense", "type": "expense", "iconName": "Building2", "color": "#EF4444" },
+    { "id": "cat_exp_2", "name": "Rent", "type": "expense", "iconName": "Home", "color": "#F97316" },
+    { "id": "cat_exp_3", "name": "Salaries", "type": "expense", "iconName": "UserCheck", "color": "#EC4899" },
+    { "id": "cat_exp_4", "name": "Utilities", "type": "expense", "iconName": "Zap", "color": "#EAB308" },
+    { "id": "cat_exp_5", "name": "Internet", "type": "expense", "iconName": "Wifi", "color": "#06B6D4" },
+    { "id": "cat_exp_6", "name": "Electricity", "type": "expense", "iconName": "Plug", "color": "#3B82F6" },
+    { "id": "cat_exp_7", "name": "Travel", "type": "expense", "iconName": "Plane", "color": "#6366F1" },
+    { "id": "cat_exp_8", "name": "Meals & Entertainment", "type": "expense", "iconName": "Utensils", "color": "#8B5CF6" },
+    { "id": "cat_exp_9", "name": "Marketing", "type": "expense", "iconName": "Target", "color": "#D946EF" },
+    { "id": "cat_exp_10", "name": "Software & SaaS", "type": "expense", "iconName": "Laptop", "color": "#14B8A6" },
+    { "id": "cat_exp_11", "name": "Taxes & Govt Fees", "type": "expense", "iconName": "FileText", "color": "#64748B" },
+    { "id": "cat_exp_12", "name": "Maintenance", "type": "expense", "iconName": "Wrench", "color": "#A855F7" },
+    { "id": "cat_exp_13", "name": "Stationery", "type": "expense", "iconName": "PenTool", "color": "#10B981" },
+    { "id": "cat_exp_14", "name": "Miscellaneous", "type": "expense", "iconName": "MoreHorizontal", "color": "#9CA3AF" }
+  ],
+  "userProfile": {
+    "name": "Alex Vance",
+    "businessName": "Vance Enterprises LLC",
+    "email": "alex.vance@cash-expense.app",
+    "phone": "+1 (555) 019-2834",
+    "currency": "$",
+    "country": "United States",
+    "address": "750 Market Street, Suite 1200, San Francisco, CA 94103",
+    "taxNumber": "US-98124501",
+    "theme": "light",
+    "financialYearStart": "April",
+    "role": "Owner / Administrator"
+  },
+  "auditLogs": [
+    {
+      "id": "log_1",
+      "timestamp": "2026-07-27T00:00:00.000Z",
+      "user": "Alex Vance",
+      "action": "LOGIN",
+      "module": "AUTH",
+      "details": "User authenticated successfully via Web App"
+    }
+  ]
+}

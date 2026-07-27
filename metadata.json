@@ -1,0 +1,10 @@
+{
+  "name": "CASH EXPENSE",
+  "description": "SaaS Financial Management & AI Receipt OCR Expense Tracker",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
