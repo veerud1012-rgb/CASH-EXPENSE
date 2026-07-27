@@ -129,7 +129,7 @@ export const TransactionDetailsModal: React.FC<{
 
             <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/80 dark:border-slate-800">
               <div className="text-slate-400 flex items-center gap-1 mb-1">
-                <Building className="w-3.5 h-3.5 text-blue-500" /> Vendor / Customer
+                <Building className="w-3.5 h-3.5 text-blue-500" /> Payee / Payer
               </div>
               <div className="font-semibold text-slate-900 dark:text-slate-100 truncate">
                 {transaction.vendorOrCustomer}

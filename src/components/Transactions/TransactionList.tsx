@@ -97,7 +97,7 @@ export const TransactionList: React.FC<{
             type="text"
             value={filterState.searchQuery}
             onChange={(e) => setFilterState(prev => ({ ...prev, searchQuery: e.target.value }))}
-            placeholder="Search by vendor, title, amount, notes, ref number..."
+            placeholder="Search by payee/payer, title, amount, notes, ref number..."
             className="w-full pl-9 pr-4 py-2 text-xs bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-[#E53935] outline-none text-slate-800 dark:text-slate-100"
           />
         </div>
@@ -218,7 +218,7 @@ export const TransactionList: React.FC<{
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="bg-slate-50 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800 text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
-              <th className="p-3">Title & Vendor</th>
+              <th className="p-3">Title & Payee/Payer</th>
               <th className="p-3">Category</th>
               <th className="p-3">Payment</th>
               <th className="p-3">Date</th>
